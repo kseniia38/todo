@@ -116,3 +116,11 @@ function loadTask() {
 }
 
 loadTask()
+
+//энтер тоже добавляет
+
+field.addEventListener('keypress', function(event) {
+    if(event.key === 'Enter') {
+        addTask();
+    }
+});
