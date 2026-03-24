@@ -1,0 +1,75 @@
+.block {
+    width: auto;
+    text-align: center;
+}
+
+.header {
+    color: rgb(255, 182, 255);
+}
+
+.field {
+    width: 300px;
+    height: 25px;
+}
+
+.add {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.list {
+    width: auto;
+    margin: 30px;
+    text-align: left;
+}
+
+
+
+
+.task {
+    display: flex;
+    width: auto;
+
+    background-color: rgb(255, 182, 255);
+
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.status {
+    accent-color: rgb(129, 129, 129);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.task-text {
+    display: inline-block;
+    width: auto;
+    flex: 1;
+
+    font-size: 30px;
+}
+
+.del {
+    background-color: #fdeef500;
+    border:none;
+
+    color:rgb(129, 129, 129);
+    align-self: flex-start;
+
+    cursor:pointer;
+}
+
+
+
+
+.completed {
+    text-decoration: line-through;
+    color:rgb(129, 129, 129)
+}
+
+
+
+
