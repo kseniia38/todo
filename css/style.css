@@ -65,7 +65,7 @@
 
 
 
-.completed {
+.completed .task-text {
     text-decoration: line-through;
     color:rgb(129, 129, 129)
 }
